@@ -35,6 +35,6 @@ figcaption {
 .container {
   display: grid;
   gap: 10px;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: masonry;
+  grid-template-columns: masonry;
+  grid-template-rows: repeat(4, 1fr);
 }
